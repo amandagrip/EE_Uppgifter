@@ -1,6 +1,5 @@
 package JDK8;
 
-import javax.validation.constraints.NotBlank;
 import java.util.List;
 
 public class Main {
