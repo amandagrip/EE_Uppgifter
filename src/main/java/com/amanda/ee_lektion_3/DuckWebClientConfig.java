@@ -11,7 +11,7 @@ public class DuckWebClientConfig {
     @Bean
     public WebClient duckWebClientBuilder(WebClient.Builder builder){
         return builder
-                .baseUrl("https://random-d.uk/api/v2/random")
+                .baseUrl("https://random-d.uk/api/v2")
                 .build();
     }
 }
