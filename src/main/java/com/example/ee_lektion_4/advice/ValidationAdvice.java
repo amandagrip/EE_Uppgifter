@@ -27,3 +27,6 @@ public class ValidationAdvice {
         return ResponseEntity.badRequest().body(errors);
     }
 }
+
+//vad är controlleradvice? det är en klass som kan hantera exceptions från alla controllers på ett ställe
+//hur fångar den upp errors? genom metoder med ExceptionHandler(ExceptionType.class) och när den kastas i någon controller så körs metoden automatiskt i ControllerAdvice
